@@ -8,3 +8,11 @@ someString = "Lorem ipsum dolor sit amet, an postulant conclusionemque eum. Ex d
 # 1. upper() - Call this method to return an upper case version of any string.
 print(someString.upper())
 print('===============================')
+
+# note: the original string is still the same, 
+print(someString)
+print('===============================')
+
+# 2. lower() - Call this method to return a lower case version of any string. 
+print(someString.lower())
+print('===============================')
