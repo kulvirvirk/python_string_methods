@@ -16,9 +16,10 @@ print('===============================')
 print(some_string.lower())
 print('===============================')
 
-# 3. provide comparision example using a .lower() method
+# 3. provide comparison example using a .lower() method
 '''user can enter any value(uppercase or lowercase) in form of input, logic should be able to compare it'''
 
-user_input = input("Enter 'Yes' or 'No' to continue:")
-print(user_input)
-print(user_input.lower())
+user_input = input('Play again(Yes/No): ')
+while user_input.lower() == 'yes':
+  user_input = input('Play again(Yes/No): ')
+print('Ok, bye!')
